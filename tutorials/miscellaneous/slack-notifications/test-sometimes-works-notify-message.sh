@@ -7,7 +7,7 @@ set -eu
 
 # This script will succeed (exit 0) 50% of the time
 
-if [[ 16666 -gt 16384 ]]; then
+if [[ 1 -gt 16384 ]]; then
   cat > notify_message/message <<EOF
 Pull Request Build is: **FAILED**:
 EOF
