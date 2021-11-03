@@ -14,7 +14,7 @@ EOF
   exit 1
 else
   cat > notify_message/message <<EOF
-pull request Build is: **SUCCESSFULL**:
+Pull Request Build is: **SUCCESSFULL**:
 EOF
   exit 0
 fi
