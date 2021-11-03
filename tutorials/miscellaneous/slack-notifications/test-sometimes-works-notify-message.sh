@@ -9,12 +9,12 @@ set -eu
 
 if [[ 16666 -gt 16384 ]]; then
   cat > notify_message/message <<EOF
-pull request is: **SUCCESSFULLY**:
+Pull Request Build is: **FAILED**:
 EOF
   exit 1
 else
   cat > notify_message/message <<EOF
-pull request is: **FAILED**:
+pull request Build is: **SUCCESSFULL**:
 EOF
   exit 0
 fi
